@@ -9,10 +9,12 @@ We want to answer the following questions:
 2. How do players compare in different surfaces? Has the match distribution over different surfaces much influence on the ranking?
 3. How did the performances of the players evolve in the last years? Who had the biggest improve and who had the strongest decline?
   
-**Question 1**
-![Serve stats](analysis/figures/serve.png "Serve stats")
+**Question 1**  
+![Serve stats](analysis/figures/serve_labeled.png "Serve stats")  
 **Question 2**  
 Under work  
+![wr stats](analysis/figures/winrate_per_year.png "wr stats")  
+![Court wr stats](analysis/figures/court_winrates.png "Court wr stats")
 **Question 3**  
 Under work    
 
