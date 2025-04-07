@@ -21,8 +21,12 @@ The goal of this section is to answer a few data-driven questions using ATP matc
 
 ### 📊 Question 1 – Serve Efficiency
 We explore serve statistics across a selected group of players.
-  
+
 ![Serve stats](analysis/figures/serve_labeled.png "Serve stats")
+
+Alexander Zverev stands out as the best server. This is meant in terms of consistency (few double faults) but also efficacy (highest first-in and first-won rates). The number of aces does not stand out, indicating that Zverev prefers a slightly less aggressive but more consistent serve.  
+An evident improvement is the one showed by Jannik Sinner. The first-won rate increased by more than 5% in the last 4 years, and the ace rate has also evidently increased. In fact Sinner admitted that he worked particularly hard on his serve in tha last year, which was considered one of his weakest point, at least compared to the other top players. Now he can be considered one of the top servers in the circuit.  
+In contrast, Daniil Medvedev was subjected to a strong and constant decline in the last years: the number of aces has dropped and the double faults rate has increased.
 
 ---
 
@@ -30,7 +34,6 @@ We explore serve statistics across a selected group of players.
 **Status: In progress**  
 Exploration of win rates on different surfaces (hard, clay, grass) and their impact on overall performance and rankings.
 
-![wr stats](analysis/figures/winrate_per_year.png "Win rate per year")  
 ![Court wr stats](analysis/figures/court_winrates.png "Court surface win rates")
 
 ---
@@ -38,6 +41,8 @@ Exploration of win rates on different surfaces (hard, clay, grass) and their imp
 ### 📊 Question 3 – Performance Trends Over Time  
 **Status: In progress**  
 We aim to analyze year-over-year player evolution in performance metrics.
+
+![wr stats](analysis/figures/winrate_per_year.png "Win rate per year")  
 
 ---
 
@@ -49,11 +54,16 @@ This section focuses on training a binary classifier to predict match outcomes b
 
 | Algorithm       | Train Accuracy | Test Accuracy |
 |----------------|----------------|---------------|
-| SVM             | 0.93           | 0.93          |
-| Logistic Regression | 0.91      | 0.92          |
-| Decision Tree   | 0.92           | 0.96          |
+| SVM             | 92%           | 95%          |
+| Logistic Regression | 86%      | 91%          |
+| Decision Tree   | 80%           | 86%          |
+| Random Forest | 98% | 98% |
 
 > 📌 Note: More models and cross-validation results may be added in future updates.
+
+---
+
+
 
 ---
 
@@ -75,5 +85,3 @@ Future updates will include:
 
 ---
 
-## 📂 Repository Structure
-analysis/ ├── figures/ └── notebooks/ model/ ├── training/ └── evaluation/ README.md
