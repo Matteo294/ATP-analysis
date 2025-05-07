@@ -4,13 +4,13 @@ This repository presents an end-to-end data science project based on ATP tennis 
 The dataset was taken from [Jack Sackmann's Tennis ATP Database on GitHub](https://github.com/JeffSackmann/tennis_atp), where one can also find feature descriptions and additional informations.
 
 The project is divided into two main parts:
-- [Part One](#part-one-exploratory-data-analysis): exploratory data analysis (EDA) on top-six players' statistics.
-- [Part two](#part-two-djokovic_exploratory-data-analysis): exploratory data analysis (EDA) on Novak Djokovic's statistics.
+- [Part One](#part-one-exploratory-data-analysis): Data Analysis and top-six players' statistics.
+- [Part two](#part-two-djokovic_exploratory-data-analysis): Data Analysis and Novak Djokovic's statistics.
 - [Part Three](#part-two-machine-learning-model): building a machine learning model to study Novak Djokovic's performance and predict match outcomes.
 
 ---
 
-## Part One – Exploratory Data Analysis
+## Part One – Data Analysis
 
 The goal of this section is to answer a few data-driven questions using ATP match statistics.
 
@@ -57,7 +57,7 @@ Alcaraz seems to be pretty stable over the years.
 
 ---
 
-## Part Two – Djokovic Exploratory Data Analysis
+## Part Two – Djokovic Data Analysis
 
 This section focuses on Novak Djokovic.  
 
